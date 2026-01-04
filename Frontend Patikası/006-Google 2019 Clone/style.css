@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 3px 20px; 
+    height: 48px; 
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+/* Linkler */
+.link{
+    color:rgba(43, 43, 43, 0.908);
+    font-size: small;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Google Grid İkonu Tasarımı */
+.apps-link {
+    display: flex;           
+    align-items: center;    
+    justify-content: center; 
+    width: 40px;             
+    height: 40px;                 
+    text-decoration: none;   
+    
+}
+
+.apps-link svg {
+    width: 24px;   
+    height: 24px;
+    fill: #5f6368;  
+}
+
+/* Sign in Butonu */
+.sign-in-btn{
+    background-color: #217af0;
+    border:none;
+    color:white;
+    padding: 7px 14px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Google */
+.Google{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+
+}
+
+/* Ana Kutuyu Ortala */
+.search-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    margin-top: 20px;      
+}
+
+/* Arama Çubuğu (Oval Kutu) */
+.search-bar {
+    display: flex;          
+    align-items: center;    
+    width: 540px;           
+    height: 44px;          
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;    
+    padding: 0 15px;       
+}
+
+/* Çubuğun üzerine gelince gölge ver */
+.search-bar:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+/* Yazı Yazma Alanı */
+.search-input {
+    flex: 1;           
+    border: none;      
+    outline: none;     
+    font-size: 16px;
+    margin: 0 10px;    
+}
+
+/* İkonların (SVG) Ayarı */
+.search-bar svg {
+    width: 20px;
+    height: 20px;
+    fill: #9aa0a6; 
+}
+
+/* Butonların Ayarı */
+.search-buttons {
+    margin-top: 25px;
+}
+
+.search-buttons button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #4f5052;
+    font-size: 13px;
+    font-weight:500;
+}
+
+.search-buttons button:hover {
+    border: 1px solid #c4c6c9; 
+}
+
+/* Footer */
+.footer {
+    position: fixed;      
+    bottom: 0;            
+    left: 0;              
+    width: 100%;         
+    background-color: #f2f2f2; 
+    border-top: 1px solid #dadce0; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 30px;   
+    box-sizing: border-box; 
+    } 
+    
+.footer-left, .footer-right {
+    display: flex;
+    gap: 25px; 
+}
+
+/* Footer içindeki linklerin rengi biraz daha soluk olması gerek */
+.footer .link {
+    color: #70757a;
+    font-size: 14px;
+}
