@@ -1,0 +1,31 @@
+.logo {
+    margin-left: 192px;
+    font-family: 'Grand Hotel', cursive; /* Yeni fontumuz */
+    font-size: 30px;
+    text-decoration: none; /* Link alt çizgisini kaldırır */
+    color: #000; /* Siyah renk */
+}
+
+/* Arama kutusunun genel ayarları */
+.search-input {
+    background-color: #fafafa; 
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    height: 28px;
+    width: 215px; 
+    font-size: 14px;
+    text-align: center; 
+    
+    /* BÜYÜTEÇ AYARI */
+    background-image: url('https://cdn-icons-png.flaticon.com/512/149/149852.png');
+    background-repeat: no-repeat; 
+    background-size: 10px; 
+    background-position: 70px center; 
+    padding-left: 20px;
+}
+/* Yazı yazmak için tıkladığında büyüteç kaybolsun */
+.search-input:focus {
+    background-image: none;
+    text-align: left; /* Yazarken sola yaslansın */
+    padding-left: 10px;
+}
