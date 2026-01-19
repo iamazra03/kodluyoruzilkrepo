@@ -1,0 +1,48 @@
+Proje 2
+
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Merge Sort önce diziyi en küçük parçalara (tek eleman kalana kadar) ayırır, sonra sıralayarak birleştirir.
+
+1. Bölme Aşaması (Divide):
+
+Adım 1: Dizi ikiye bölünür. [16, 21, 11] — [8, 12, 22]
+
+Adım 2: Parçalar tekrar ikiye bölünür. [16] — [21, 11] — [8] — [12, 22]
+
+Adım 3: Tek eleman kalana kadar bölünür. [16] — [21] — [11] — [8] — [12] — [22]
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Birleştirme Aşaması (Merge):
+
+Adım 4: Tekli parçalar ikili olarak sıralı şekilde birleşir. [16] — [11, 21] — [8] — [12, 22] (11 ile 21 yer değiştirdi, diğerleri zaten sıralıydı)
+
+Adım 5: Gruplar tekrar birleştirilir ve sıralanır. Sol taraf: [16] ile [11, 21] birleşir -> [11, 16, 21] Sağ taraf: [8] ile [12, 22] birleşir -> [8, 12, 22]
+
+Adım 6: Son iki büyük parça ([11, 16, 21] ve [8, 12, 22]) birleştirilir.
+
+8 en küçük (başa gelir).
+
+11 gelir.
+
+12 gelir.
+
+16 gelir.
+
+21 gelir.
+
+22 gelir.
+
+Sonuç: [8, 11, 12, 16, 21, 22]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Big-O Gösterimi: Her bölünme adımında dizi yarıya indiği için $log(n)$, birleştirme aşamasında her eleman tek tek gezildiği için $n$ işlem yapılır. Sonuç n*log(n) olur.
+
+
