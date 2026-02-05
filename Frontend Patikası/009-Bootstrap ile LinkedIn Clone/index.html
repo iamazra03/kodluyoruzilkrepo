@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/linkedIn.css">
+    
+    <title>LinkedIn Clone</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-white border-bottom py-1">
+  <div class="container">
+    <a class="navbar-brand ms-2" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="#0a66c2" class="mercado-match" width="45" height="45" focusable="false">
+        <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+        </svg>
+    </a>
+
+    <form class="d-flex" role="search">
+    <div class="input-group bg-light rounded-pill px-3 align-items-center" 
+         style="width: 280px; height: 38px; border: 1.5px solid #9d9c9c !important;">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="14" height="14" fill="black">
+            <path d="M14.56 12.44L11.3 9.18a5.5 5.5 0 10-2.12 2.12l3.26 3.26a1.5 1.5 0 102.12-2.12zM3 6.5A3.5 3.5 0 116.5 10 3.5 3.5 0 013 6.5z"></path>
+        </svg>
+        
+        <input class="form-control bg-transparent border-0 shadow-none ms-2 p-0" 
+               type="search" placeholder="Arama Yap" style="color: black;">
+    </div>
+    </form>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-2" style="margin-left: 100px;" >
+
+        <li class="nav-item mx-lg-2">
+            <a class="nav-link d-flex flex-column align-items-center active" href="#">
+            <i class="fas fa-home fa-lg mb-3"></i>
+            <span style="font-size: 13px;">Ana Sayfa</span>
+            </a>
+        </li>
+
+        <li class="nav-item mx-lg-2">
+            <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="fas fa-users fa-lg mb-3"></i>
+            <span style="font-size: 13px;">Ağım</span>
+            </a>
+        </li>
+
+        <li class="nav-item mx-lg-2">
+            <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="fas fa-briefcase fa-lg mb-3"></i>
+            <span style="font-size: 13px;">İş İlanları</span>
+            </a>
+        </li>
+
+        <li class="nav-item mx-lg-2">
+            <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="fas fa-comment-dots fa-lg mb-3"></i>
+            <span style="font-size: 13px;">Mesajlaşma</span>
+            </a>
+        </li>
+
+        <li class="nav-item mx-lg-2">
+            <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="fas fa-bell fa-lg mb-3"></i>
+            <span style="font-size: 13px;">Bildirimler</span>
+            </a>
+        </li>
+
+        <li class="nav-item mx-lg-2">
+            <a class="nav-link d-flex flex-column align-items-center py-0" href="#" style="min-width: 80px;">
+                <img src="https://picsum.photos/id/64/24/24" 
+                    class="rounded-circle border mb-1" 
+                    style="width: 24px; height: 24px; object-fit: cover;" 
+                    alt="Profil">
+    
+            <div class="d-flex align-items-center justify-content-center" style="font-size: 13px; line-height: 1;">
+            <span>Ben</span>
+            <i class="fas fa-caret-down ms-1" style="font-size: 10px;"></i>
+            </div>
+            </a>
+        </li>
+
+        <li class="nav-item border-start ms-0 ps-5 d-flex align-items-center">
+        <a class="nav-link d-flex flex-column align-items-center p-0" href="#" style="color: #666666; text-decoration: none;">
+            
+            <div class="d-flex flex-wrap mb-0" style="width: 22px; height: 22px; gap: 3px; align-content: center; justify-content: center; margin-top: -10px;">
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            <div style="width: 5px; height: 5px; background: #666666; border-radius: 1px;"></div>
+            </div>
+            
+            <div class="d-flex align-items-center" style="font-size: 13px; line-height: 1.4;">
+            <span>İş için</span>
+            <i class="fas fa-caret-down ms-1" style="font-size: 10px;"></i>
+            </div>
+        </a>
+        </li>
+
+        <li class="nav-item ms-4">
+        <a class="nav-link d-flex align-items-center py-0" href="#" style="max-width: 130px;">
+            <span class="text-center" style="font-size: 13px; color: #915907; text-decoration: underline; line-height: 1.2;">
+            0 TRY ile Premium’u deneyin
+            </span>
+        </a>
+        </li>
+
+        </ul>
+            
+    </div>
+  </div>
+</nav>
+
+<br>
+
+<main class="container mt-5 pt-4">
+<div class="row">
+  <div class="col-auto" style="width: 270px;">
+    
+    <div class="card text-center border-0 shadow-sm mb-2" style="border-radius: 10px; overflow: hidden;">
+        <div style="height: 60px; background-color: #a0b4b7;"></div>
+        
+        <div class="card-body pt-0 pb-2">
+            <img src="https://picsum.photos/id/64/150/150" 
+                 class="rounded-circle border border-2 border-white mx-auto d-block shadow-sm" 
+                 style="width: 72px; height: 72px; margin-top: -36px; background: white; object-fit: cover;" 
+                 alt="Profil">
+            
+            <h6 class="mt-3 mb-0 fw-bold hover-underline" style="font-size: 16px; cursor: pointer;">Azra</h6>
+            <p class="text-muted small mb-3">Software Developer</p>
+            
+            <hr class="my-2 text-muted">
+            
+            <div class="text-start px-2 mb-2">
+                <div class="d-flex justify-content-between align-items-center py-1 stats-hover" style="cursor: pointer;">
+                    <span class="text-muted fw-semibold" style="font-size: 13px;">Profil görüntülemeleri</span>
+                    <span class="text-primary fw-bold" style="font-size: 13px;">34</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center py-1 stats-hover" style="cursor: pointer;">
+                    <span class="text-muted fw-semibold" style="font-size: 13px;">Gönderi Gösterimi Sayısı</span>
+                    <span class="text-primary fw-bold" style="font-size: 13px;">152</span>
+                </div>
+            </div>
+
+            <hr class="my-2 text-muted">
+            <div class="text-start px-2 py-1 d-flex align-items-center stats-hover" style="cursor: pointer;">
+                <i class="fas fa-bookmark me-2 text-muted" style="font-size: 12px;"></i>
+                <span class="text-dark fw-semibold" style="font-size: 12px;">Ögelerim</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm sticky-top" style="border-radius: 10px; top: 80px;">
+        <div class="card-body pt-3 pb-2 px-3">
+            <p class="small fw-bold mb-2">En Yeni</p>
+            
+            <div class="d-flex align-items-center mb-2 hashtag-hover" style="cursor: pointer;">
+                <i class="fas fa-hashtag me-2 text-muted" style="font-size: 12px;"></i>
+                <span class="text-muted fw-semibold" style="font-size: 12px;">javascript</span>
+            </div>
+            <div class="d-flex align-items-center mb-2 hashtag-hover" style="cursor: pointer;">
+                <i class="fas fa-hashtag me-2 text-muted" style="font-size: 12px;"></i>
+                <span class="text-muted fw-semibold" style="font-size: 12px;">bootstrap5</span>
+            </div>
+            <div class="d-flex align-items-center mb-2 hashtag-hover" style="cursor: pointer;">
+                <i class="fas fa-hashtag me-2 text-muted" style="font-size: 12px;"></i>
+                <span class="text-muted fw-semibold" style="font-size: 12px;">yazılımgeliştirme</span>
+            </div>
+            <div class="d-flex align-items-center mb-2 hashtag-hover" style="cursor: pointer;">
+                <i class="fas fa-hashtag me-2 text-muted" style="font-size: 12px;"></i>
+                <span class="text-muted fw-semibold" style="font-size: 12px;">frontend</span>
+            </div>
+
+            <p class="small fw-bold text-primary mt-3 mb-2" style="cursor: pointer;">Gruplar</p>
+            
+            <div class="d-flex align-items-center justify-content-between mt-3 pt-2 border-top">
+                <span class="text-muted fw-bold" style="font-size: 12px; cursor: pointer;">Daha fazla keşfet</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-6">
+      
+      <div class="card border-0 shadow-sm mb-2" style="border-radius: 10px;">
+        <div class="card-body pb-2">
+          <div class="d-flex align-items-center mb-2">
+            <img src="https://picsum.photos/id/64/150/150" class="rounded-circle me-2 border border-1" width="48" height="48" alt="Profil">
+            <button class="btn btn-outline-secondary rounded-pill text-start w-100 fw-semibold text-muted border-1" 
+                    style="height: 48px; border-color: #aeb0b1; background-color: white;">
+                    Gönderi başlat
+            </button>
+          </div>
+          
+          <div class="d-flex justify-content-between align-items-center mt-2 px-2">
+            <button class="btn btn-light d-flex align-items-center py-3 px-2 flex-grow-1 justify-content-center bg-white border-0 hover-gray">
+              <i class="fas fa-video fa-lg me-2" style="color: #378fe9;"></i>
+              <span class="text-secondary fw-semibold small">Fotoğraf</span>
+            </button>
+            <button class="btn btn-light d-flex align-items-center py-3 px-2 flex-grow-1 justify-content-center bg-white border-0 hover-gray">
+              <i class="fas fa-image fa-lg me-2" style="color: #189c1b;"></i>
+              <span class="text-secondary fw-semibold small">Video</span>
+            </button>
+            <button class="btn btn-light d-flex align-items-center py-3 px-2 flex-grow-1 justify-content-center bg-white border-0 hover-gray">
+              <i class="fas fa-calendar-alt fa-lg me-2" style="color: #c37d16;"></i>
+              <span class="text-secondary fw-semibold small">Etkinlik</span>
+            </button>
+            <button class="btn btn-light d-flex align-items-center py-3 px-2 flex-grow-1 justify-content-center bg-white border-0 hover-gray">
+              <i class="fas fa-newspaper fa-lg me-2" style="color: #e06847;"></i>
+              <span class="text-secondary fw-semibold small">Yazı yaz</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center mb-2">
+         <hr class="flex-grow-1 my-0 border-secondary opacity-25">
+         <span class="small text-muted ms-2">Sıralama ölçütü: <span class="fw-bold text-dark">En önemli</span> <i class="fas fa-caret-down"></i></span>
+      </div>
+
+      <div class="card border-0 shadow-sm mb-2" style="border-radius: 10px;">
+        <div class="card-body p-0">
+          
+          <div class="d-flex p-3 pb-2">
+            <img src="https://picsum.photos/id/100/50/50" class="rounded-circle me-2" width="48" height="48" alt="Yazar">
+            <div class="flex-grow-1">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <h6 class="mb-0 fw-bold d-flex align-items-center">Elon Musk <span class="text-muted fw-normal mx-1">•</span> <span class="text-muted small fw-normal">3.</span></h6>
+                  <p class="text-muted small mb-0">Owner of X / Tesla / SpaceX</p>
+                  <p class="text-muted small mb-0 d-flex align-items-center">
+                     2s • <i class="fas fa-globe-americas ms-1" style="font-size: 11px;"></i>
+                  </p>
+                </div>
+                <button class="btn btn-link text-dark p-0 text-decoration-none"><i class="fas fa-ellipsis-h"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="px-3 pb-2">
+            <p class="mb-0 small text-dark" style="line-height: 1.5;">
+              Yazılım geliştirme dünyasında Bootstrap 5 kullanmak, projeleri hızlandırmak için harika bir yöntem! 🚀 Hem responsive hem de modern tasarımlar çıkarmak artık çok daha kolay. #coding #bootstrap #webdevelopment
+            </p>
+          </div>
+
+          <img src="https://picsum.photos/seed/picsum/600/300" class="w-100 d-block" alt="Post Content">
+
+          <div class="d-flex justify-content-between align-items-center px-3 py-2 border-bottom border-light">
+             <div class="d-flex align-items-center">
+               <i class="fas fa-thumbs-up text-primary me-1"></i>
+               <i class="fas fa-heart text-danger me-1"></i>
+               <span class="small text-muted hover-underline cursor-pointer">Azra ve 1.254 diğer kişi</span>
+             </div>
+             <span class="small text-muted hover-underline cursor-pointer">34 yorum • 12 paylaşım</span>
+          </div>
+
+          <div class="d-flex justify-content-around py-1 px-2">
+            <button class="btn btn-white border-0 text-secondary fw-semibold d-flex align-items-center justify-content-center flex-grow-1 py-3 hover-gray">
+               <i class="far fa-thumbs-up fa-lg me-2"></i> Beğen
+            </button>
+            <button class="btn btn-white border-0 text-secondary fw-semibold d-flex align-items-center justify-content-center flex-grow-1 py-3 hover-gray">
+               <i class="far fa-comment-dots fa-lg me-2"></i> Yorum Yap
+            </button>
+            <button class="btn btn-white border-0 text-secondary fw-semibold d-flex align-items-center justify-content-center flex-grow-1 py-3 hover-gray">
+               <i class="fas fa-retweet fa-lg me-2"></i> Paylaş
+            </button>
+            <button class="btn btn-white border-0 text-secondary fw-semibold d-flex align-items-center justify-content-center flex-grow-1 py-3 hover-gray">
+               <i class="far fa-paper-plane fa-lg me-2"></i> Gönder
+            </button>
+          </div>
+
+        </div>
+      </div>
+      
+      </div>
+
+
+    <div class="col-auto" style="width: 340px;">
+      
+      <div class="card border-0 shadow-sm mb-2" style="border-radius: 10px;">
+        <div class="card-body pt-3 pb-2">
+          
+          <div class="d-flex justify-content-between align-items-center mb-3">
+             <h5 class="fw-bold mb-0 text-dark">LinkedIn Haberler</h5>
+             <i class="fas fa-info-circle text-dark" style="font-size: 14px;"></i>
+          </div>
+
+          <ul class="list-unstyled mb-0">
+            
+            <li class="mb-3 cursor-pointer">
+              <div class="d-flex align-items-start">
+                 <i class="fas fa-circle text-secondary mt-2 me-2" style="font-size: 10px;"></i>
+                 <div>
+                    <span class="d-block fw-semibold text-dark small hover-underline">Yapay Zeka iş dünyasını değiştiriyor</span>
+                    <span class="text-muted small">12s önce • 10.452 okuyucu</span>
+                 </div>
+              </div>
+            </li>
+
+            <li class="mb-3 cursor-pointer">
+              <div class="d-flex align-items-start">
+                 <i class="fas fa-circle text-secondary mt-2 me-2" style="font-size: 10px;"></i>
+                 <div>
+                    <span class="d-block fw-semibold text-dark small hover-underline">Türkiye'de startup yatırımları</span>
+                    <span class="text-muted small">5s önce • 5.123 okuyucu</span>
+                 </div>
+              </div>
+            </li>
+
+            <li class="mb-3 cursor-pointer">
+              <div class="d-flex align-items-start">
+                 <i class="fas fa-circle text-secondary mt-2 me-2" style="font-size: 10px;"></i>
+                 <div>
+                    <span class="d-block fw-semibold text-dark small hover-underline">En çok aranan yazılım dilleri</span>
+                    <span class="text-muted small">1g önce • 22.890 okuyucu</span>
+                 </div>
+              </div>
+            </li>
+
+            <li class="mb-3 cursor-pointer">
+              <div class="d-flex align-items-start">
+                 <i class="fas fa-circle text-secondary mt-2 me-2" style="font-size: 10px;"></i>
+                 <div>
+                    <span class="d-block fw-semibold text-dark small hover-underline">Evden çalışma modelleri</span>
+                    <span class="text-muted small">3s önce • 8.000 okuyucu</span>
+                 </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-light btn-sm text-muted fw-semibold mt-1">
+             Daha fazla göster <i class="fas fa-chevron-down ms-1"></i>
+          </button>
+
+        </div>
+      </div>
+
+      <div class="text-center mt-3 px-4">
+         <p class="small text-muted mb-1" style="font-size: 12px;">
+           <span class="mx-1 hover-underline cursor-pointer">Hakkında</span>
+           <span class="mx-1 hover-underline cursor-pointer">Erişilebilirlik</span>
+           <span class="mx-1 hover-underline cursor-pointer">Yardım Merkezi</span>
+         </p>
+         <p class="small text-muted mb-2" style="font-size: 12px;">
+           <span class="mx-1 hover-underline cursor-pointer">Gizlilik ve Koşullar</span>
+           <span class="mx-1 hover-underline cursor-pointer">Reklam Tercihleri</span>
+         </p>
+         <div class="d-flex align-items-center justify-content-center mt-2">
+            <img src="https://static.licdn.com/aero-v1/sc/h/aahlc8ivbnmk0t3eyz8as5gvr" alt="Logo" height="14" class="me-1">
+            <span class="small text-muted" style="font-size: 12px;">LinkedIn Corporation © 2024</span>
+         </div>
+      </div>
+
+    </div>
+</div>
+</main>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

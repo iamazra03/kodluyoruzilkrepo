@@ -1,0 +1,123 @@
+/* Ana Resim */
+.ana-resim{
+    display: block;   
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+/* Arama Kısmı */
+.arama-aciklamasi{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.arama-formu {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.arama-kutusu{
+    width: 300px;
+}
+
+.link{
+    color: rgb(100, 18, 177);
+}
+
+/* Arama Butonları */
+.buton-kutusu{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.btn{
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+/* Arama Alanı */
+.arama-alani{
+    background-color: #e9e4e4d2;
+    width: 90%;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+/* Alt Menü */
+.alt-menu{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    height: 80px;
+    margin-top: 2px;
+}
+
+/* Bölüm1 */
+.bolum1{
+    padding: 10px 10px;         
+    text-align: center;    
+    width: 512px;
+    background-color: rgb(89, 230, 230);
+    margin: 0;
+}
+
+.bolum1 p {
+    margin-bottom: 0px; 
+    margin-top: 0px;    
+}
+
+/* Bölüm2 */
+.bolum2{
+    padding: 10px 10px;        
+    text-align: center;    
+    width: 280px;
+    background-color: rgb(72, 196, 196);
+    font-size: small;
+
+}
+
+/* Bölüm3 */
+.bolum3{
+    padding: 2px 10px 10px 10px;          
+    text-align: center;    
+    width: 512px;
+    background-color: rgb(67, 177, 177);
+    margin: 0;
+}
+
+.bolum3-yazi{
+    font-size: small;
+    margin-bottom: 0px; 
+    margin-top: 0px;    
+
+}
+
+.btn2{
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background-color: white;
+}
+
+.arsiv-link{
+    font-size: small;
+    color: rgb(100, 18, 177);
+}
+
+/* Footer */
+.alt-bilgi{
+    text-align: center;
+    font-size: 13px;
+}
+

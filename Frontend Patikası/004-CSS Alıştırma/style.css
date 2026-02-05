@@ -1,0 +1,49 @@
+body {
+    background-color: #f4b7e1; 
+    color: #2D333B;            
+}
+
+/* Giriş Kısmı */
+
+.giris{
+    font-family:unset;
+    color:rgb(111, 4, 138);
+}
+
+.metin{
+    font-family:unset;
+    color:cyan;
+    font-size:larger;
+}
+
+.ana-metin{
+    background-color: darkmagenta;
+}
+
+/* Hakkımda Kısmı */
+
+.hakkımda-kısmı{
+    text-align: center;
+    color:black;
+}
+
+.hakkımda-kısmı ul{
+    list-style-position: inside;
+}
+
+.baslik{
+    color:rgb(111, 4, 138);
+}
+
+/* İletişim Kısmı */
+
+.iletisim-kısmı{
+    font-family:unset;
+    color:rgb(111, 4, 138);
+}
+
+.metin2{
+    font-family:unset;
+    color:cyan;
+    font-size:larger;
+}

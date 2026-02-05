@@ -1,0 +1,36 @@
+body {
+    background-color: #2c3135; 
+    color: #e9ecef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.text-center { text-align: center; }
+
+#logo {
+    color: #ff9d10; 
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+#myName {
+    color: #ff9d10;
+    font-weight: bold;
+}
+
+.clock {
+    font-size: 45px;
+    color: #ff9d10;
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 18px;
+    color: #ff9d10;
+    max-width: 600px;
+    line-height: 1.6;
+}
